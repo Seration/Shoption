@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Catalog/Shoption.Catalog/Shoption.Catalog.csproj": {}
+    "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/Shoption.Catalog.csproj": {}
   },
   "projects": {
-    "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Catalog/Shoption.Catalog/Shoption.Catalog.csproj": {
+    "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/Shoption.Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Catalog/Shoption.Catalog/Shoption.Catalog.csproj",
+        "projectUniqueName": "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/Shoption.Catalog.csproj",
         "projectName": "Shoption.Catalog",
-        "projectPath": "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Catalog/Shoption.Catalog/Shoption.Catalog.csproj",
+        "projectPath": "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/Shoption.Catalog.csproj",
         "packagesPath": "/Users/sercan/.nuget/packages/",
-        "outputPath": "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Catalog/Shoption.Catalog/obj/",
+        "outputPath": "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sercan/.config/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.12.4, )"
