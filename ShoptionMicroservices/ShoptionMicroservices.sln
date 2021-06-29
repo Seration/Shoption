@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E28E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoption.Catalog", "Services\Shoption.Catalog\Shoption.Catalog.csproj", "{E758AFF2-2C09-4142-8F61-AB12BAE29356}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6853DA6D-410A-4F62-AED4-D9CD82918168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoption.Shared", "Shared\Shoption.Shared\Shoption.Shared.csproj", "{25555AF6-72F7-4D27-8C04-F250786A0FDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{E758AFF2-2C09-4142-8F61-AB12BAE29356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E758AFF2-2C09-4142-8F61-AB12BAE29356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E758AFF2-2C09-4142-8F61-AB12BAE29356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25555AF6-72F7-4D27-8C04-F250786A0FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25555AF6-72F7-4D27-8C04-F250786A0FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25555AF6-72F7-4D27-8C04-F250786A0FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25555AF6-72F7-4D27-8C04-F250786A0FDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,5 +37,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E28EA205-D926-47A5-B39D-8046CBFC594C} = {039CDA01-4936-475F-8737-BF315D3F7716}
 		{E758AFF2-2C09-4142-8F61-AB12BAE29356} = {E28EA205-D926-47A5-B39D-8046CBFC594C}
+		{25555AF6-72F7-4D27-8C04-F250786A0FDD} = {6853DA6D-410A-4F62-AED4-D9CD82918168}
 	EndGlobalSection
 EndGlobal
