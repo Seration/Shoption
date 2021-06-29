@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{039CDA01-4936-475F-8737-BF315D3F7716}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E28EA205-D926-47A5-B39D-8046CBFC594C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoption.Catalog", "Services\Shoption.Catalog\Shoption.Catalog.csproj", "{E758AFF2-2C09-4142-8F61-AB12BAE29356}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E758AFF2-2C09-4142-8F61-AB12BAE29356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E758AFF2-2C09-4142-8F61-AB12BAE29356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E758AFF2-2C09-4142-8F61-AB12BAE29356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E758AFF2-2C09-4142-8F61-AB12BAE29356}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9025F56-A81D-4784-86EA-59907ECC5126}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E28EA205-D926-47A5-B39D-8046CBFC594C} = {039CDA01-4936-475F-8737-BF315D3F7716}
+		{E758AFF2-2C09-4142-8F61-AB12BAE29356} = {E28EA205-D926-47A5-B39D-8046CBFC594C}
+	EndGlobalSection
+EndGlobal
