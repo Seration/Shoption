@@ -14,6 +14,7 @@
     <None Remove="Settings\" />
     <None Remove="Services\" />
     <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -27,6 +28,7 @@
     <PackageReference Include="MongoDB.Driver" Version="2.12.4" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\Shoption.Shared\Shoption.Shared.csproj">
