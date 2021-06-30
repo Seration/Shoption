@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{1F0661CF-6048-46CC-B70B-F531E19B9AF7}|SelfHost">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IdentityServer/Shoption.IdentityServer/Dtos/SignupDto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IdentityServer/Shoption.IdentityServer/Config.cs">
     <Files>
       <File FileName="IdentityServer/Shoption.IdentityServer/appsettings.json" Line="3" Column="97" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Startup.cs" Line="34" Column="37" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Program.cs" Line="63" Column="22" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Models/ApplicationUser.cs" Line="8" Column="27" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Controllers/UserController.cs" Line="1" Column="1" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Controllers/UserController.cs" Line="41" Column="32" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Dtos/SignupDto.cs" Line="12" Column="1" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +15,7 @@
           <Node name="ShoptionMicroservices" expanded="True">
             <Node name="IdentityServer" expanded="True">
               <Node name="Shoption.IdentityServer" expanded="True">
-                <Node name="Dtos" expanded="True">
-                  <Node name="SignupDto.cs" selected="True" />
-                </Node>
+                <Node name="Config.cs" selected="True" />
               </Node>
             </Node>
           </Node>
