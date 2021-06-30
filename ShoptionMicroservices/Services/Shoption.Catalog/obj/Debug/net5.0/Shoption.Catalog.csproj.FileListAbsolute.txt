@@ -49,6 +49,7 @@
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.AssemblyInfoInputs.cache
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.AssemblyInfo.cs
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.csproj.CoreCompileInputs.cache
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.MvcApplicationPartsAssemblyInfo.cs
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.MvcApplicationPartsAssemblyInfo.cache
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/staticwebassets/Shoption.Catalog.StaticWebAssets.Manifest.cache
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/staticwebassets/Shoption.Catalog.StaticWebAssets.xml
@@ -59,3 +60,8 @@
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/ref/Shoption.Catalog.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.pdb
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.genruntimeconfig.cache
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/mono_crash.11a67480d0.0.json
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll

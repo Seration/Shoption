@@ -33,10 +33,12 @@ namespace Shoption.Catalog.Services
 
             if (!products.Any())
                 products = new List<Product>();
-
-            foreach (var item in products)
+            else
             {
-                item.Category = await _categoryCollection.Find<Category>(x => x.Id == item.CategoryId).FirstAsync();
+                foreach (var item in products)
+                {
+                    item.Category = await _categoryCollection.Find<Category>(x => x.Id == item.CategoryId).FirstAsync();
+                }
             }
 
             return Response<List<ProductDto>>.Success(_mapper.Map<List<ProductDto>>(products), 200);
