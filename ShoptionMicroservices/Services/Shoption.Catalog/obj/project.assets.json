@@ -243,6 +243,16 @@
             "rid": "win"
           }
         }
+      },
+      "Shoption.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Shoption.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shoption.Shared.dll": {}
+        }
       }
     }
   },
@@ -712,12 +722,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Shoption.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Shoption.Shared/Shoption.Shared.csproj",
+      "msbuildProject": "../../Shared/Shoption.Shared/Shoption.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
-      "MongoDB.Driver >= 2.12.4"
+      "MongoDB.Driver >= 2.12.4",
+      "Shoption.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -744,7 +760,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Shared/Shoption.Shared/Shoption.Shared.csproj": {
+              "projectPath": "/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Shared/Shoption.Shared/Shoption.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

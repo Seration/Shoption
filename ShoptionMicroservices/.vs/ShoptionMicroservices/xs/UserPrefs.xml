@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{E758AFF2-2C09-4142-8F61-AB12BAE29356}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Catalog/Mapping/MapFactory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Catalog/Services/IProductService.cs">
     <Files>
-      <File FileName="Services/Shoption.Catalog/Models/Category.cs" Line="1" Column="1" />
-      <File FileName="Services/Shoption.Catalog/Models/Feature.cs" Line="6" Column="42" />
-      <File FileName="Services/Shoption.Catalog/Models/Product.cs" Line="23" Column="47" />
-      <File FileName="Shared/Shoption.Shared/Dto/ResponseDto.cs" Line="30" Column="10" />
+      <File FileName="Shared/Shoption.Shared/Dto/ResponseDto.cs" Line="41" Column="32" />
       <File FileName="Shared/Shoption.Shared/Dto/NoContent.cs" Line="6" Column="9" />
-      <File FileName="Services/Shoption.Catalog/Dto/CategoryDto.cs" Line="7" Column="27" />
-      <File FileName="Services/Shoption.Catalog/Dto/ProductDto.cs" Line="15" Column="50" />
-      <File FileName="Services/Shoption.Catalog/Dto/ProductCreateDto.cs" Line="12" Column="47" />
-      <File FileName="Services/Shoption.Catalog/Dto/ProductUpdateDto.cs" Line="16" Column="1" />
-      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="27" Column="53" />
-      <File FileName="Services/Shoption.Catalog/Mapping/MapFactory.cs" Line="4" Column="34" />
+      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="40" Column="69" />
+      <File FileName="Services/Shoption.Catalog/Settings/IDatabaseSettings.cs" Line="9" Column="35" />
+      <File FileName="Services/Shoption.Catalog/Settings/DatabaseSettings.cs" Line="6" Column="50" />
+      <File FileName="Services/Shoption.Catalog/Services/CategoryService.cs" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Catalog/Services/ICategoryService.cs" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Catalog/Services/IProductService.cs" Line="11" Column="6" />
+      <File FileName="Services/Shoption.Catalog/Services/ProductService.cs" Line="79" Column="70" />
+      <File FileName="Services/Shoption.Catalog/Dto/ProductDto.cs" Line="4" Column="11" />
+      <File FileName="Services/Shoption.Catalog/Dto/ProductCreateDto.cs" Line="4" Column="11" />
+      <File FileName="Services/Shoption.Catalog/Dto/ProductUpdateDto.cs" Line="4" Column="11" />
+      <File FileName="Services/Shoption.Catalog/Dto/FeatureDto.cs" Line="4" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,10 +22,16 @@
             <Node name="Services" expanded="True">
               <Node name="Catalog" expanded="True">
                 <Node name="Shoption.Catalog" expanded="True">
-                  <Node name="Mapping" expanded="True">
-                    <Node name="MapFactory.cs" selected="True" />
+                  <Node name="Dto" expanded="True" />
+                  <Node name="Services" expanded="True">
+                    <Node name="IProductService.cs" selected="True" />
                   </Node>
                 </Node>
+              </Node>
+            </Node>
+            <Node name="Shared" expanded="True">
+              <Node name="Shoption.Shared" expanded="True">
+                <Node name="Dto" expanded="True" />
               </Node>
             </Node>
           </Node>

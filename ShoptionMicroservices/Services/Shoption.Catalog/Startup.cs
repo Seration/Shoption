@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Shoption.Catalog.Services;
+using Shoption.Catalog.Settings;
 
 namespace Shoption.Catalog
 {
@@ -26,6 +29,15 @@ namespace Shoption.Catalog
         {
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
+
+            services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));
+
+            services.AddSingleton<IDatabaseSettings>(sp =>
+            {
+                return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
+            });
+
+            services.AddScoped<ICategoryService, CategoryService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
