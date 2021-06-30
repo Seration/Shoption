@@ -6,3 +6,4 @@
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Shared/Shoption.Shared/obj/Debug/netcoreapp3.1/Shoption.Shared.csproj.CoreCompileInputs.cache
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Shared/Shoption.Shared/obj/Debug/netcoreapp3.1/Shoption.Shared.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Shared/Shoption.Shared/obj/Debug/netcoreapp3.1/Shoption.Shared.pdb
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Shared/Shoption.Shared/obj/Debug/netcoreapp3.1/Shoption.Shared.csproj.AssemblyReference.cache
