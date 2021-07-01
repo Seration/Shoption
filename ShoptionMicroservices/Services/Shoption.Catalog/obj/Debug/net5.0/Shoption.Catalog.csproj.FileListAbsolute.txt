@@ -32,6 +32,12 @@
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/AutoMapper.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/DnsClient.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.OpenApi.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/MongoDB.Bson.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/MongoDB.Driver.dll
@@ -41,6 +47,7 @@
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/runtimes/win/native/snappy32.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/runtimes/win/native/snappy64.dll
@@ -65,10 +72,3 @@
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/ref/Shoption.Catalog.dll
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.pdb
 /Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/obj/Debug/net5.0/Shoption.Catalog.genruntimeconfig.cache
-/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
-/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
-/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
-/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
-/Users/sercan/Desktop/Shoption/ShoptionMicroservices/Services/Shoption.Catalog/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll

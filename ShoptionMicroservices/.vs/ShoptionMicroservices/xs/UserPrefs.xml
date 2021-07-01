@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Catalog/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs">
     <Files>
       <File FileName="IdentityServer/Shoption.IdentityServer/appsettings.json" Line="3" Column="97" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Startup.cs" Line="31" Column="50" />
@@ -8,16 +8,19 @@
       <File FileName="IdentityServer/Shoption.IdentityServer/Controllers/UserController.cs" Line="18" Column="37" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Dtos/SignupDto.cs" Line="12" Column="19" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="42" Column="69" />
-      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="69" Column="37" />
-      <File FileName="Services/Shoption.Catalog/appsettings.json" Line="8" Column="21" />
+      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="36" Column="56" />
+      <File FileName="Services/Shoption.Catalog/appsettings.json" Line="8" Column="47" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs" Line="4" Column="61" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ShoptionMicroservices" expanded="True" selected="True">
-            <Node name="Services" expanded="True">
-              <Node name="Catalog" expanded="True">
-                <Node name="Shoption.Catalog" expanded="True" />
+          <Node name="ShoptionMicroservices" expanded="True">
+            <Node name="IdentityServer" expanded="True">
+              <Node name="Shoption.IdentityServer" expanded="True">
+                <Node name="Services" expanded="True">
+                  <Node name="IdentityResourceOwnerPasswordValidator.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
