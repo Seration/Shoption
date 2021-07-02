@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
@@ -42,6 +43,28 @@ namespace Shoption.IdentityServer.Controllers
                 return BadRequest(Response<NoContent>.Fail(result.Errors.Select(x => x.Description).ToList(), 400));
 
             return NoContent();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetUser()
+        {
+            var userIdClaim = User.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Sub);
+
+            if (userIdClaim == null)
+                return BadRequest();
+
+            var user = await _userManager.FindByIdAsync(userIdClaim.Value);
+
+            if (user == null)
+                return BadRequest();
+
+            return Ok(new
+            {
+                Id = user.Id,
+                Username = user.UserName,
+                Email = user.Email,
+                City = user.Email,
+            });
         }
     }
 }

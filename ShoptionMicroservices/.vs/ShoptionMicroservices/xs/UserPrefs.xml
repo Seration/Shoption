@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Basket/Shoption.Basket/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Basket/Shoption.Basket/Dtos/BasketDto.cs">
     <Files>
       <File FileName="IdentityServer/Shoption.IdentityServer/appsettings.json" Line="3" Column="97" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Startup.cs" Line="58" Column="89" />
@@ -11,7 +11,9 @@
       <File FileName="Services/Shoption.Catalog/Startup.cs" Line="36" Column="56" />
       <File FileName="Services/Shoption.Catalog/appsettings.json" Line="8" Column="47" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs" Line="11" Column="56" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Properties/launchSettings.json" Line="24" Column="47" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Properties/launchSettings.json" Line="23" Column="28" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Dtos/BasketItemDto.cs" Line="9" Column="29" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Dtos/BasketDto.cs" Line="6" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,8 +22,8 @@
             <Node name="Services" expanded="True">
               <Node name="Basket" expanded="True">
                 <Node name="Shoption.Basket" expanded="True">
-                  <Node name="Properties" expanded="True">
-                    <Node name="launchSettings.json" selected="True" />
+                  <Node name="Dtos" expanded="True">
+                    <Node name="BasketDto.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>

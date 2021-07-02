@@ -20,8 +20,8 @@
     "Shoption.Basket": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
-      "applicationUrl": "http://localhost:39662",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5024",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

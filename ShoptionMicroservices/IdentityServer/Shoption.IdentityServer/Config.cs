@@ -68,6 +68,7 @@ namespace Shoption.IdentityServer
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess, // even user is offline we can get refresh token
+                        IdentityServerConstants.LocalApi.ScopeName,
                         "roles"
                     },
                     AccessTokenLifetime = 1*60*60,

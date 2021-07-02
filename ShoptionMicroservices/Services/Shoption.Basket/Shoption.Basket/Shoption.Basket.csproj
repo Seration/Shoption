@@ -11,8 +11,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="StackExchange.Redis" />
+    <None Remove="Dtos\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="StackExchange.Redis" Version="2.2.62" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dtos\" />
   </ItemGroup>
 </Project>
