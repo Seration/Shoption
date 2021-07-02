@@ -1,11 +1,11 @@
-﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IdentityServer/Shoption.IdentityServer/Properties/launchSettings.json">
+﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Discount/Shoption.Discount/Models/Discount.cs">
     <Files>
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="48" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="30" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Settings/RedisSettings.cs" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/IBasketService.cs" Line="13" Column="52" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/RedisService.cs" Line="20" Column="86" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="59" Column="40" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="38" Column="122" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/BasketService.cs" Line="21" Column="104" />
       <File FileName="Shared/Shoption.Shared/Services/ISharedIdentityService.cs" Line="6" Column="41" />
       <File FileName="Shared/Shoption.Shared/Services/SharedIdentityService.cs" Line="15" Column="96" />
@@ -14,22 +14,28 @@
       <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="70" Column="47" />
       <File FileName="Services/Shoption.Catalog/Startup.cs" Line="69" Column="100" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/appsettings.json" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/Properties/launchSettings.json" Line="23" Column="28" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/Models/Discount.cs" Line="6" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ShoptionMicroservices" expanded="True" selected="True">
-            <Node name="IdentityServer" expanded="True">
-              <Node name="Shoption.IdentityServer" expanded="True">
-                <Node name="Properties" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="ShoptionMicroservices" expanded="True">
             <Node name="Services" expanded="True">
               <Node name="Basket" expanded="True">
-                <Node name="Shoption.Basket" expanded="True" />
+                <Node name="Shoption.Basket" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Catalog" expanded="True">
-                <Node name="Shoption.Catalog" expanded="True" />
+              <Node name="Discount" expanded="True">
+                <Node name="Shoption.Discount" expanded="True">
+                  <Node name="Models" expanded="True">
+                    <Node name="Discount.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -41,6 +47,7 @@
   <MonoDevelop.Ide.ItemProperties.Services.Basket.Shoption.Basket PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Services.Catalog.Shoption.Catalog PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Discount.Shoption.Discount FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <DisabledProjects>
     <String>Catalog/Shoption.Catalog/Shoption.Catalog.csproj</String>
   </DisabledProjects>
