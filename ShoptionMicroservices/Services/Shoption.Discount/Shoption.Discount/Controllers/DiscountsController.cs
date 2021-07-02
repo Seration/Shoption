@@ -7,16 +7,13 @@ using Shoption.Discount.Services;
 using Shoption.Shared.ControllerBases;
 using Shoption.Shared.Services;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Shoption.Discount.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
     public class DiscountsController : CustomBaseController
     {
-
         private readonly IDiscountService _discountService;
 
         private readonly ISharedIdentityService _sharedIdentityService;
@@ -28,7 +25,7 @@ namespace Shoption.Discount.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetByAll()
+        public async Task<IActionResult> GetAll()
         {
             return CreateActionResultInstance(await _discountService.GetAll());
         }
@@ -41,10 +38,12 @@ namespace Shoption.Discount.Controllers
             return CreateActionResultInstance(discount);
         }
 
-        [HttpGet("/api/[controller]/[action]/{code}")]
+        [HttpGet]
+        [Route("/api/[controller]/[action]/{code}")]
         public async Task<IActionResult> GetByCode(string code)
+
         {
-            var userId =  _sharedIdentityService.GetUserId;
+            var userId = _sharedIdentityService.GetUserId;
             var discount = await _discountService.GetByCodeAndUserId(code, userId);
 
             return CreateActionResultInstance(discount);

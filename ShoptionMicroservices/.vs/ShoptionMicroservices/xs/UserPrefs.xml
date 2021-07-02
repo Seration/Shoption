@@ -1,26 +1,24 @@
 ﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Discount/Shoption.Discount/Controllers/DiscountsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Order/Shoption.Order.API/Properties/launchSettings.json">
     <Files>
       <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="73" Column="51" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="49" Column="81" />
       <File FileName="Services/Shoption.Discount/Shoption.Discount/Startup.cs" Line="47" Column="81" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="50" />
       <File FileName="Services/Shoption.Discount/Shoption.Discount/appsettings.json" Line="5" Column="50" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Controllers/DiscountsController.cs" Line="44" Column="8" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/Controllers/DiscountsController.cs" Line="10" Column="1" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.API/Properties/launchSettings.json" Line="23" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShoptionMicroservices" expanded="True">
-            <Node name="IdentityServer" expanded="True" />
             <Node name="Services" expanded="True">
-              <Node name="Basket" expanded="True">
-                <Node name="Shoption.Basket" expanded="True" />
-              </Node>
-              <Node name="Discount" expanded="True">
-                <Node name="Shoption.Discount" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="DiscountsController.cs" selected="True" />
+              <Node name="Order" expanded="True">
+                <Node name="Shoption.Order.API" expanded="True">
+                  <Node name="Properties" expanded="True">
+                    <Node name="launchSettings.json" selected="True" />
                   </Node>
                 </Node>
               </Node>
@@ -34,7 +32,7 @@
   <MonoDevelop.Ide.ItemProperties.Services.Basket.Shoption.Basket PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Services.Catalog.Shoption.Catalog PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Services.Discount.Shoption.Discount FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Discount.Shoption.Discount PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <DisabledProjects>
     <String>Catalog/Shoption.Catalog/Shoption.Catalog.csproj</String>
   </DisabledProjects>
