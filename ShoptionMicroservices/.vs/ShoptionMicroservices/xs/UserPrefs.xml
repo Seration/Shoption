@@ -1,19 +1,12 @@
 ﻿<Properties StartupConfiguration="{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Basket/Shoption.Basket/Dtos/BasketDto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Basket/Shoption.Basket/Services/BasketService.cs">
     <Files>
-      <File FileName="IdentityServer/Shoption.IdentityServer/appsettings.json" Line="3" Column="97" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Startup.cs" Line="58" Column="89" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Program.cs" Line="63" Column="22" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Models/ApplicationUser.cs" Line="8" Column="27" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Controllers/UserController.cs" Line="67" Column="16" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Dtos/SignupDto.cs" Line="12" Column="19" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="71" Column="68" />
-      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="36" Column="56" />
-      <File FileName="Services/Shoption.Catalog/appsettings.json" Line="8" Column="47" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs" Line="11" Column="56" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Properties/launchSettings.json" Line="23" Column="28" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Dtos/BasketItemDto.cs" Line="9" Column="29" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Dtos/BasketDto.cs" Line="6" Column="22" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="4" Column="18" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Settings/RedisSettings.cs" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/IBasketService.cs" Line="13" Column="52" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/RedisService.cs" Line="20" Column="86" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="34" Column="81" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/BasketService.cs" Line="4" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,14 +15,14 @@
             <Node name="Services" expanded="True">
               <Node name="Basket" expanded="True">
                 <Node name="Shoption.Basket" expanded="True">
-                  <Node name="Dtos" expanded="True">
-                    <Node name="BasketDto.cs" selected="True" />
+                  <Node name="Services" expanded="True">
+                    <Node name="BasketService.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Catalog" expanded="True">
-                <Node name="Shoption.Catalog" expanded="True" />
-              </Node>
+            </Node>
+            <Node name="Shared" expanded="True">
+              <Node name="Shoption.Shared" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -51,7 +44,7 @@
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
         <StartupItem ItemId="{E758AFF2-2C09-4142-8F61-AB12BAE29356}" ItemName="Shoption.Catalog" ConfigurationId="Default" />
-        <StartupItem ItemId="{1F0661CF-6048-46CC-B70B-F531E19B9AF7}" ItemName="Shoption.IdentityServer" ConfigurationId="Default" />
+        <StartupItem ItemId="{1F0661CF-6048-46CC-B70B-F531E19B9AF7}" ItemName="Shoption.IdentityServer" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
