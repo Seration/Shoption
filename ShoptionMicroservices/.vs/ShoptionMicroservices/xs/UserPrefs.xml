@@ -1,39 +1,24 @@
 ﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IdentityServer/Shoption.IdentityServer/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Discount/Shoption.Discount/appsettings.json">
     <Files>
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="30" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Settings/RedisSettings.cs" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/IBasketService.cs" Line="13" Column="52" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/RedisService.cs" Line="20" Column="86" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="38" Column="122" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/BasketService.cs" Line="21" Column="104" />
-      <File FileName="Shared/Shoption.Shared/Services/ISharedIdentityService.cs" Line="6" Column="41" />
-      <File FileName="Shared/Shoption.Shared/Services/SharedIdentityService.cs" Line="15" Column="96" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Controllers/BasketsController.cs" Line="44" Column="88" />
-      <File FileName="Services/Shoption.Catalog/Controllers/CategoryController.cs" Line="30" Column="46" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="70" Column="47" />
-      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="69" Column="100" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/appsettings.json" Line="3" Column="55" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Properties/launchSettings.json" Line="23" Column="28" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Models/Discount.cs" Line="14" Column="1" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Services/IDiscountService.cs" Line="15" Column="88" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Services/DiscountService.cs" Line="81" Column="83" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/appsettings.json" Line="1" Column="1" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="73" Column="51" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="85" Column="34" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/Startup.cs" Line="69" Column="37" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="50" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShoptionMicroservices" expanded="True">
-            <Node name="IdentityServer" expanded="True">
-              <Node name="Shoption.IdentityServer" expanded="True">
-                <Node name="appsettings.json" selected="True" />
-              </Node>
-            </Node>
+            <Node name="IdentityServer" expanded="True" />
             <Node name="Services" expanded="True">
+              <Node name="Basket" expanded="True">
+                <Node name="Shoption.Basket" expanded="True" />
+              </Node>
               <Node name="Discount" expanded="True">
                 <Node name="Shoption.Discount" expanded="True">
-                  <Node name="Services" expanded="True" />
+                  <Node name="appsettings.json" selected="True" />
                 </Node>
               </Node>
             </Node>

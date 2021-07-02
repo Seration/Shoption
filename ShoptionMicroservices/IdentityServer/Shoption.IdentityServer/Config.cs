@@ -15,6 +15,7 @@ namespace Shoption.IdentityServer
         {
             new ApiResource("resource_catalog"){Scopes={"catalog_fullpermission"}},
             new ApiResource("resource_basket"){Scopes={"basket_fullpermission"}},
+            new ApiResource("resource_discount"){Scopes={"discount_fullpermission"}},
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -38,6 +39,7 @@ namespace Shoption.IdentityServer
             {
                 new ApiScope("catalog_fullpermission", "Full access for Catalog API"),
                 new ApiScope("basket_fullpermission", "Full access for Basket API"),
+                new ApiScope("discount_fullpermission", "Full access for Discount API"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -68,6 +70,7 @@ namespace Shoption.IdentityServer
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess, // even user is offline we can get refresh token
                         "basket_fullpermission",
+                        "discount_fullpermission",
                         IdentityServerConstants.LocalApi.ScopeName,
                         "roles"
                     },
