@@ -1,12 +1,18 @@
 ﻿<Properties StartupConfiguration="{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Basket/Shoption.Basket/Services/BasketService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Catalog/Startup.cs">
     <Files>
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="4" Column="18" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="48" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Settings/RedisSettings.cs" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/IBasketService.cs" Line="13" Column="52" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/RedisService.cs" Line="20" Column="86" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="34" Column="81" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/BasketService.cs" Line="4" Column="39" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="39" Column="52" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Services/BasketService.cs" Line="21" Column="104" />
+      <File FileName="Shared/Shoption.Shared/Services/ISharedIdentityService.cs" Line="6" Column="41" />
+      <File FileName="Shared/Shoption.Shared/Services/SharedIdentityService.cs" Line="15" Column="96" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Controllers/BasketsController.cs" Line="44" Column="88" />
+      <File FileName="Services/Shoption.Catalog/Controllers/CategoryController.cs" Line="30" Column="46" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="70" Column="47" />
+      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="47" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,15 +20,13 @@
           <Node name="ShoptionMicroservices" expanded="True">
             <Node name="Services" expanded="True">
               <Node name="Basket" expanded="True">
-                <Node name="Shoption.Basket" expanded="True">
-                  <Node name="Services" expanded="True">
-                    <Node name="BasketService.cs" selected="True" />
-                  </Node>
+                <Node name="Shoption.Basket" expanded="True" />
+              </Node>
+              <Node name="Catalog" expanded="True">
+                <Node name="Shoption.Catalog" expanded="True">
+                  <Node name="Startup.cs" selected="True" />
                 </Node>
               </Node>
-            </Node>
-            <Node name="Shared" expanded="True">
-              <Node name="Shoption.Shared" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,7 +34,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.IdentityServer.Shoption.IdentityServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Services.Basket.Shoption.Basket FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Basket.Shoption.Basket PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Services.Catalog.Shoption.Catalog PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <DisabledProjects>

@@ -14,7 +14,7 @@ namespace Shoption.IdentityServer
         public static IEnumerable<ApiResource> ApiResources => new ApiResource[]
         {
             new ApiResource("resource_catalog"){Scopes={"catalog_fullpermission"}},
-            new ApiResource("photo_stock_catalog"){Scopes={"catalog_fullpermission"}},
+            new ApiResource("resource_basket"){Scopes={"basket_fullpermission"}},
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -37,7 +37,7 @@ namespace Shoption.IdentityServer
             new ApiScope[]
             {
                 new ApiScope("catalog_fullpermission", "Full access for Catalog API"),
-                new ApiScope("photo_stock_fullpermission", "Full access for Photo Stock API"),
+                new ApiScope("basket_fullpermission", "Full access for Basket API"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -52,7 +52,6 @@ namespace Shoption.IdentityServer
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     AllowedScopes={
                         "catalog_fullpermission",
-                        "photo_stock_fullpermission",
                         IdentityServerConstants.LocalApi.ScopeName
                     }
                 },
@@ -68,6 +67,7 @@ namespace Shoption.IdentityServer
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess, // even user is offline we can get refresh token
+                        "basket_fullpermission",
                         IdentityServerConstants.LocalApi.ScopeName,
                         "roles"
                     },

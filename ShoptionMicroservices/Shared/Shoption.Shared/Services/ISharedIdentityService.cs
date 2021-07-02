@@ -1,0 +1,8 @@
+﻿using System;
+namespace Shoption.Shared.Services
+{
+    public interface ISharedIdentityService
+    {
+        public string GetUserId { get; }
+    }
+}

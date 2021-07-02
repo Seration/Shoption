@@ -7,10 +7,12 @@
   <ItemGroup>
     <None Remove="Dto\" />
     <None Remove="ControllerBases\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dto\" />
     <Folder Include="ControllerBases\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
