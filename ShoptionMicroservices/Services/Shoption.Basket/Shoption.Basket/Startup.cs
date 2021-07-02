@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
 using Shoption.Basket.Services;
 using Shoption.Basket.Settings;
 using Shoption.Shared.Services;
@@ -55,6 +56,11 @@ namespace Shoption.Basket
                 return redis;
             });
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Basket", Version = "v1" });
+            });
+
             // Within the reqireAuthorizePolicy that we created above, we dont need to write [Authorize] attribute in every control
             services.AddControllers(opt =>
             {
@@ -68,6 +74,8 @@ namespace Shoption.Basket
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Basket v1"));
             }
 
             app.UseRouting();
