@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoption.IdentityServer", "IdentityServer\Shoption.IdentityServer\Shoption.IdentityServer.csproj", "{1F0661CF-6048-46CC-B70B-F531E19B9AF7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{594A5C2B-4CB2-4112-862C-1C4975457DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoption.Basket", "Services\Shoption.Basket\Shoption.Basket\Shoption.Basket.csproj", "{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{1F0661CF-6048-46CC-B70B-F531E19B9AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F0661CF-6048-46CC-B70B-F531E19B9AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F0661CF-6048-46CC-B70B-F531E19B9AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,5 +55,7 @@ Global
 		{E758AFF2-2C09-4142-8F61-AB12BAE29356} = {E28EA205-D926-47A5-B39D-8046CBFC594C}
 		{25555AF6-72F7-4D27-8C04-F250786A0FDD} = {6853DA6D-410A-4F62-AED4-D9CD82918168}
 		{1F0661CF-6048-46CC-B70B-F531E19B9AF7} = {7A923A64-79BF-4AD9-8530-0A372F981A9F}
+		{594A5C2B-4CB2-4112-862C-1C4975457DA3} = {039CDA01-4936-475F-8737-BF315D3F7716}
+		{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E} = {594A5C2B-4CB2-4112-862C-1C4975457DA3}
 	EndGlobalSection
 EndGlobal

@@ -1,26 +1,32 @@
-﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs">
+﻿<Properties StartupConfiguration="{3D43FCAB-4BC0-4D5A-BA06-AD95B15D805E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Basket/Shoption.Basket/Properties/launchSettings.json">
     <Files>
       <File FileName="IdentityServer/Shoption.IdentityServer/appsettings.json" Line="3" Column="97" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Startup.cs" Line="31" Column="50" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Startup.cs" Line="58" Column="89" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Program.cs" Line="63" Column="22" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Models/ApplicationUser.cs" Line="8" Column="27" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Controllers/UserController.cs" Line="18" Column="37" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Controllers/UserController.cs" Line="67" Column="16" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Dtos/SignupDto.cs" Line="12" Column="19" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="42" Column="69" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="71" Column="68" />
       <File FileName="Services/Shoption.Catalog/Startup.cs" Line="36" Column="56" />
       <File FileName="Services/Shoption.Catalog/appsettings.json" Line="8" Column="47" />
-      <File FileName="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs" Line="4" Column="61" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs" Line="11" Column="56" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Properties/launchSettings.json" Line="24" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShoptionMicroservices" expanded="True">
-            <Node name="IdentityServer" expanded="True">
-              <Node name="Shoption.IdentityServer" expanded="True">
-                <Node name="Services" expanded="True">
-                  <Node name="IdentityResourceOwnerPasswordValidator.cs" selected="True" />
+            <Node name="Services" expanded="True">
+              <Node name="Basket" expanded="True">
+                <Node name="Shoption.Basket" expanded="True">
+                  <Node name="Properties" expanded="True">
+                    <Node name="launchSettings.json" selected="True" />
+                  </Node>
                 </Node>
+              </Node>
+              <Node name="Catalog" expanded="True">
+                <Node name="Shoption.Catalog" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -29,6 +35,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.IdentityServer.Shoption.IdentityServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Basket.Shoption.Basket FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Services.Catalog.Shoption.Catalog PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <DisabledProjects>
