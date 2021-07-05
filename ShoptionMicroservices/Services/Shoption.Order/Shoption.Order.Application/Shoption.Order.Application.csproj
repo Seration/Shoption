@@ -7,15 +7,20 @@
   <ItemGroup>
     <ProjectReference Include="..\Shoption.Order.Domain\Shoption.Order.Domain.csproj" />
     <ProjectReference Include="..\Shoption.Order.Infrastructure\Shoption.Order.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Shoption.Shared\Shoption.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Dtos\" />
     <None Remove="AutoMapper" />
     <None Remove="Mapping\" />
+    <None Remove="Queries\" />
+    <None Remove="Commands\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dtos\" />
     <Folder Include="Mapping\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Commands\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
