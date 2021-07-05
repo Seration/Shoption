@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Order/Shoption.Order.API/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Order/Shoption.Order.Application/Mapping/ObjectMapper.cs">
     <Files>
-      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="73" Column="51" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="49" Column="81" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Startup.cs" Line="47" Column="81" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="50" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/appsettings.json" Line="5" Column="50" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Controllers/DiscountsController.cs" Line="10" Column="1" />
-      <File FileName="Services/Shoption.Discount/Shoption.Discount/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.API/Properties/launchSettings.json" Line="23" Column="28" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain.Core/Entity.cs" Line="66" Column="10" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain.Core/ValueObject.cs" Line="47" Column="10" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain.Core/IAggregateRoot.cs" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/OrderAggregate/Address.cs" Line="22" Column="49" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/OrderAggregate/OrderItem.cs" Line="19" Column="51" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/OrderAggregate/Order.cs" Line="22" Column="45" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Infrastructure/OrderDbContext.cs" Line="25" Column="100" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/AddressDto.cs" Line="10" Column="34" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/OrderItemDto.cs" Line="6" Column="39" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/OrderDto.cs" Line="8" Column="22" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/CreatedOrderDto.cs" Line="2" Column="42" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Mapping/CustomMapper.cs" Line="14" Column="46" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Mapping/ObjectMapper.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +21,10 @@
           <Node name="ShoptionMicroservices" expanded="True">
             <Node name="Services" expanded="True">
               <Node name="Order" expanded="True">
-                <Node name="Shoption.Order.API" expanded="True">
-                  <Node name="Properties" expanded="True">
-                    <Node name="launchSettings.json" selected="True" />
+                <Node name="Shoption.Order.Application" expanded="True">
+                  <Node name="Dtos" expanded="True" />
+                  <Node name="Mapping" expanded="True">
+                    <Node name="ObjectMapper.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>

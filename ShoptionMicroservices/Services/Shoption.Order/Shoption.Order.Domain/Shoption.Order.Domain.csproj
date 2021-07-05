@@ -7,4 +7,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Shoption.Order.Domain.Core\Shoption.Order.Domain.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="OrderAggregate\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OrderAggregate\" />
+  </ItemGroup>
 </Project>
