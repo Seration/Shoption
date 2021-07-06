@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shoption.Payment.Models;
 using Shoption.Shared.ControllerBases;
 using Shoption.Shared.Dto;
+using Shoption.Shared.Messages;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -53,7 +54,7 @@ namespace Shoption.Payment.Controllers
 
             await sendEndpoint.Send<CreateOrderMessageCommand>(createOrderMessageCommand);
 
-            return CreateActionResultInstance(Shared.Dtos.Response<NoContent>.Success(200));
+            return CreateActionResultInstance(Shared.Dto.Response<NoContent>.Success(200));
         }
     }
 }

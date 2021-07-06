@@ -10,15 +10,21 @@
     <None Remove="Mapping\" />
     <None Remove="Queries\" />
     <None Remove="Commands\" />
+    <None Remove="Consumer\" />
+    <None Remove="MassTransit.AspNetCore" />
+    <None Remove="MassTransit.RabbitMQ" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dtos\" />
     <Folder Include="Mapping\" />
     <Folder Include="Queries\" />
     <Folder Include="Commands\" />
+    <Folder Include="Consumer\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.2.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.2.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Shoption.Order.Infrastructure\Shoption.Services.Order.Infrastructure\Shoption.Services.Order.Infrastructure.csproj" />
