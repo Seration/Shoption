@@ -8,11 +8,13 @@
     <None Remove="Dto\" />
     <None Remove="ControllerBases\" />
     <None Remove="Services\" />
+    <None Remove="Messages\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dto\" />
     <Folder Include="ControllerBases\" />
     <Folder Include="Services\" />
+    <Folder Include="Messages\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,24 +1,36 @@
 ﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shoption.Gateway/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Payment/Shoption.Payment/Controllers/PaymentsController.cs">
     <Files>
       <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="61" Column="33" />
-      <File FileName="Shoption.Gateway/Startup.cs" Line="28" Column="1" />
+      <File FileName="Shoption.Gateway/Startup.cs" Line="24" Column="10" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="45" Column="16" />
       <File FileName="Shoption.Gateway/Program.cs" Line="1" Column="1" />
-      <File FileName="Shoption.Gateway/appsettings.json" Line="1" Column="1" />
-      <File FileName="Shoption.Gateway/configuration.development.json" Line="16" Column="66" />
+      <File FileName="Shoption.Gateway/appsettings.json" Line="2" Column="48" />
+      <File FileName="Shoption.Gateway/configuration.development.json" Line="49" Column="59" />
+      <File FileName="Services/Shoption.Payment/Shoption.Payment/Models/OrderDto.cs" Line="14" Column="1" />
+      <File FileName="Services/Shoption.Payment/Shoption.Payment/Models/PaymentDto.cs" Line="12" Column="44" />
+      <File FileName="Services/Shoption.Payment/Shoption.Payment/Properties/launchSettings.json" Line="24" Column="47" />
+      <File FileName="Services/Shoption.Payment/Shoption.Payment/Startup.cs" Line="32" Column="10" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/appsettings.json" Line="5" Column="50" />
+      <File FileName="Services/Shoption.Payment/Shoption.Payment/appsettings.json" Line="2" Column="50" />
+      <File FileName="Services/Shoption.Payment/Shoption.Payment/Controllers/PaymentsController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShoptionMicroservices" expanded="True">
-            <Node name="Gateways" expanded="True">
-              <Node name="Shoption.Gateway" expanded="True">
-                <Node name="Startup.cs" selected="True" />
+            <Node name="Services" expanded="True">
+              <Node name="Discount" expanded="True">
+                <Node name="Shoption.Discount" expanded="True" />
+              </Node>
+              <Node name="Payment" expanded="True">
+                <Node name="Shoption.Payment" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="PaymentsController.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
-            <Node name="IdentityServer" expanded="True" />
-            <Node name="Services" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -33,6 +45,7 @@
     <String>Catalog/Shoption.Catalog/Shoption.Catalog.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Services.Payment.Shoption.Payment FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
