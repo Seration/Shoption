@@ -1,11 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using Shoption.Order.Domain.Core;
+using Shoption.Services.Order.Core;
 
-namespace Shoption.Order.Domain.OrderAggregate
+namespace Shoption.Services.Order.Domain
 {
     public class Address : ValueObject
     {
+        public string Province { get; private set; }
+
+        public string District { get; private set; }
+
+        public string Street { get; private set; }
+
+        public string ZipCode { get; private set; }
+
+        public string Line { get; private set; }
+
         public Address(string province, string district, string street, string zipCode, string line)
         {
             Province = province;
@@ -14,12 +24,6 @@ namespace Shoption.Order.Domain.OrderAggregate
             ZipCode = zipCode;
             Line = line;
         }
-
-        public string Province { get; private set; }
-        public string District { get; private set; }
-        public string Street { get; private set; }
-        public string ZipCode { get; private set; }
-        public string Line { get; private set; }
 
         protected override IEnumerable<object> GetEqualityComponents()
         {

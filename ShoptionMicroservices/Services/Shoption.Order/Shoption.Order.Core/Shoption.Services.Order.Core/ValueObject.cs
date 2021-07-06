@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Shoption.Order.Domain.Core
+namespace Shoption.Services.Order.Core
 {
     public abstract class ValueObject
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Shoption.Order.Domain.Core
+namespace Shoption.Services.Order.Core
 {
     public interface IAggregateRoot
     {

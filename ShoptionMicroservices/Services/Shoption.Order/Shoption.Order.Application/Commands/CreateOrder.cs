@@ -4,8 +4,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Shoption.Order.Application.Dtos;
-using Shoption.Order.Domain.OrderAggregate;
-using Shoption.Order.Infrastructure;
+using Shoption.Services.Order.Domain;
+using Shoption.Services.Order.Infrastructure;
 using Shoption.Shared.Dto;
 
 namespace Shoption.Order.Application.Commands
@@ -36,7 +36,7 @@ namespace Shoption.Order.Application.Commands
                 request.Address.ZipCode
             );
 
-            Domain.OrderAggregate.Order newOrder = new Domain.OrderAggregate.Order(newAddress, request.BuyerId);
+            Services.Order.Domain.Order newOrder = new Services.Order.Domain.Order(request.BuyerId, newAddress);
 
             request.OrderItems.ForEach(x =>
             {

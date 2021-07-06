@@ -1,7 +1,7 @@
 ﻿using System;
 using AutoMapper;
 using Shoption.Order.Application.Dtos;
-using Shoption.Order.Domain.OrderAggregate;
+using Shoption.Services.Order.Domain;
 
 namespace Shoption.Order.Application.Mapping
 {
@@ -9,7 +9,7 @@ namespace Shoption.Order.Application.Mapping
     {
         public CustomMapper()
         {
-            CreateMap<Domain.OrderAggregate.Order, OrderDto>().ReverseMap();
+            CreateMap<Services.Order.Domain.Order, OrderDto>().ReverseMap();
             CreateMap<OrderItemDto, OrderItemDto>().ReverseMap();
             CreateMap<Address, AddressDto>().ReverseMap();
         }

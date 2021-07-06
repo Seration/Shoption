@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Shoption.Order.Application.Dtos;
 using Shoption.Order.Application.Mapping;
-using Shoption.Order.Infrastructure;
+using Shoption.Services.Order.Infrastructure;
 using Shoption.Shared.Dto;
 
 namespace Shoption.Order.Application.Queries
@@ -28,7 +28,7 @@ namespace Shoption.Order.Application.Queries
 
         public async Task<Response<List<OrderDto>>> Handle(GetOrderByUserId request, CancellationToken cancellationToken)
         {
-            var orders = await _orderDbContext.Orders.Include(x => x.OrderItem).Where(x => x.BuyerId == request.UserId).ToListAsync();
+            var orders = await _orderDbContext.Orders.Include(x => x.OrderItems).Where(x => x.BuyerId == request.UserId).ToListAsync();
 
             if (!orders.Any())
                 return Response<List<OrderDto>>.Success(new List<OrderDto>(), 200);

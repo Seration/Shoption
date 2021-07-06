@@ -1,23 +1,27 @@
 ﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Order/Shoption.Order.API/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Order/Shoption.Order.API/Controllers/OrdersController.cs">
     <Files>
-      <File FileName="Services/Shoption.Order/Shoption.Order.Domain.Core/Entity.cs" Line="66" Column="10" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Domain.Core/ValueObject.cs" Line="47" Column="10" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Domain.Core/IAggregateRoot.cs" Line="1" Column="1" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/OrderAggregate/Address.cs" Line="22" Column="49" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/OrderAggregate/OrderItem.cs" Line="19" Column="51" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/OrderAggregate/Order.cs" Line="22" Column="45" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Infrastructure/OrderDbContext.cs" Line="25" Column="100" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/AddressDto.cs" Line="10" Column="34" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/OrderItemDto.cs" Line="6" Column="39" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/OrderDto.cs" Line="8" Column="22" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/CreatedOrderDto.cs" Line="2" Column="42" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Mapping/CustomMapper.cs" Line="14" Column="58" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Mapping/CustomMapper.cs" Line="4" Column="38" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Mapping/ObjectMapper.cs" Line="21" Column="1" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Queries/GetOrderByUserId.cs" Line="38" Column="62" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Commands/CreateOrder.cs" Line="32" Column="42" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Queries/GetOrderByUserId.cs" Line="31" Column="80" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Commands/CreateOrder.cs" Line="39" Column="96" />
       <File FileName="Services/Shoption.Order/Shoption.Order.API/appsettings.json" Line="3" Column="93" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.API/Startup.cs" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.API/Startup.cs" Line="14" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Order.Application.csproj" Line="8" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Core/Shoption.Services.Order.Core/Entity.cs" Line="52" Column="5" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Core/Shoption.Services.Order.Core/IAggregateRoot.cs" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Core/Shoption.Services.Order.Core/ValueObject.cs" Line="34" Column="49" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/Shoption.Services.Order.Domain/Address.cs" Line="36" Column="6" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/Shoption.Services.Order.Domain/Order.cs" Line="45" Column="6" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/Shoption.Services.Order.Domain/OrderItem.cs" Line="31" Column="6" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Infrastructure/Shoption.Services.Order.Infrastructure/Shoption.Services.Order.Infrastructure.csproj" Line="14" Column="15" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Domain/Shoption.Services.Order.Domain/Shoption.Services.Order.Domain.csproj" Line="9" Column="15" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Infrastructure/Shoption.Services.Order.Infrastructure/OrderDbContext.cs" Line="24" Column="64" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.API/Controllers/OrdersController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,8 +29,10 @@
           <Node name="ShoptionMicroservices" expanded="True">
             <Node name="Services" expanded="True">
               <Node name="Order" expanded="True">
-                <Node name="Shoption.Order.API" expanded="True">
-                  <Node name="Startup.cs" selected="True" />
+                <Node name="Shoption.Services.Order.API" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="OrdersController.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>

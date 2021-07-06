@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shoption.Order.Domain\Shoption.Order.Domain.csproj" />
-    <ProjectReference Include="..\Shoption.Order.Infrastructure\Shoption.Order.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\..\Shared\Shoption.Shared\Shoption.Shared.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="Dtos\" />
     <None Remove="AutoMapper" />
     <None Remove="Mapping\" />
@@ -24,5 +19,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shoption.Order.Infrastructure\Shoption.Services.Order.Infrastructure\Shoption.Services.Order.Infrastructure.csproj" />
+    <ProjectReference Include="..\Shoption.Order.Domain\Shoption.Services.Order.Domain\Shoption.Services.Order.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Shoption.Shared\Shoption.Shared.csproj" />
   </ItemGroup>
 </Project>
