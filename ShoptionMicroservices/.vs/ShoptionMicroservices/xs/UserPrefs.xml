@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Basket/Shoption.Basket/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shoption.Gateway/configuration.development.json">
     <Files>
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/AddressDto.cs" Line="10" Column="34" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Dtos/OrderItemDto.cs" Line="6" Column="39" />
@@ -9,8 +9,8 @@
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Mapping/ObjectMapper.cs" Line="21" Column="1" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Queries/GetOrderByUserId.cs" Line="31" Column="80" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Commands/CreateOrder.cs" Line="11" Column="46" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.API/appsettings.json" Line="3" Column="93" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.API/Startup.cs" Line="44" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.API/appsettings.json" Line="5" Column="50" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.API/Startup.cs" Line="78" Column="91" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Order.Application.csproj" Line="8" Column="1" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Core/Shoption.Services.Order.Core/Entity.cs" Line="52" Column="5" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Core/Shoption.Services.Order.Core/IAggregateRoot.cs" Line="1" Column="1" />
@@ -23,24 +23,30 @@
       <File FileName="Services/Shoption.Order/Shoption.Order.Infrastructure/Shoption.Services.Order.Infrastructure/OrderDbContext.cs" Line="24" Column="64" />
       <File FileName="Services/Shoption.Order/Shoption.Order.API/Controllers/OrdersController.cs" Line="28" Column="1" />
       <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="76" Column="48" />
-      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="45" Column="16" />
+      <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="81" Column="99" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/appsettings.json" Line="6" Column="50" />
+      <File FileName="Shoption.Gateway/Properties/launchSettings.json" Line="14" Column="47" />
+      <File FileName="Shoption.Gateway/Startup.cs" Line="32" Column="35" />
+      <File FileName="Shoption.Gateway/configuration.development" Line="60" Column="24" />
+      <File FileName="Shoption.Gateway/configuration.production" Line="1" Column="1" />
+      <File FileName="Shoption.Gateway/Program.cs" Line="28" Column="12" />
+      <File FileName="Services/Shoption.Discount/Shoption.Discount/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.API/Properties/launchSettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShoptionMicroservices" expanded="True">
-            <Node name="IdentityServer" expanded="True">
-              <Node name="Shoption.IdentityServer" expanded="True" />
+            <Node name="Gateways" expanded="True">
+              <Node name="Shoption.Gateway" expanded="True">
+                <Node name="configuration.development.json" selected="True" />
+              </Node>
             </Node>
             <Node name="Services" expanded="True">
-              <Node name="Basket" expanded="True">
-                <Node name="Shoption.Basket" expanded="True">
-                  <Node name="appsettings.json" selected="True" />
-                </Node>
-              </Node>
               <Node name="Order" expanded="True">
-                <Node name="Shoption.Services.Order.API" expanded="True" />
+                <Node name="Shoption.Services.Order.API" expanded="True">
+                  <Node name="Properties" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
