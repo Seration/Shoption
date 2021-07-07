@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{9940DFDB-12FB-41D3-8F85-1645228665A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Shoption.Order/Shoption.Order.API/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shoption.Gateway/DelegateHandlers/TokenExchangeDelegateHandler.cs">
     <Files>
-      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="82" Column="33" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Config.cs" Line="100" Column="1" />
       <File FileName="Shoption.Gateway/Startup.cs" Line="24" Column="10" />
       <File FileName="Services/Shoption.Basket/Shoption.Basket/Startup.cs" Line="45" Column="16" />
       <File FileName="Shoption.Gateway/Program.cs" Line="1" Column="1" />
@@ -10,31 +10,33 @@
       <File FileName="Services/Shoption.Payment/Shoption.Payment/Models/OrderDto.cs" Line="14" Column="1" />
       <File FileName="Services/Shoption.Payment/Shoption.Payment/Models/PaymentDto.cs" Line="12" Column="44" />
       <File FileName="Services/Shoption.Payment/Shoption.Payment/Properties/launchSettings.json" Line="24" Column="47" />
-      <File FileName="Services/Shoption.Payment/Shoption.Payment/Startup.cs" Line="40" Column="48" />
+      <File FileName="Services/Shoption.Payment/Shoption.Payment/Startup.cs" Line="45" Column="52" />
       <File FileName="Services/Shoption.Discount/Shoption.Discount/appsettings.json" Line="5" Column="50" />
       <File FileName="Services/Shoption.Payment/Shoption.Payment/appsettings.json" Line="6" Column="32" />
       <File FileName="Services/Shoption.Payment/Shoption.Payment/Controllers/PaymentsController.cs" Line="53" Column="16" />
       <File FileName="Shared/Shoption.Shared/Messages/CreateOrderMessageCommand.cs" Line="34" Column="6" />
       <File FileName="Services/Shoption.Order/Shoption.Order.Application/Consumer/CreateOrderMessageCommandConsumer.cs" Line="21" Column="30" />
-      <File FileName="Services/Shoption.Order/Shoption.Order.API/Startup.cs" Line="61" Column="1" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.API/Startup.cs" Line="57" Column="76" />
+      <File FileName="Shared/Shoption.Shared/Messages/ProductNameChangedEvent.cs" Line="7" Column="30" />
+      <File FileName="Services/Shoption.Catalog/Startup.cs" Line="47" Column="1" />
+      <File FileName="Services/Shoption.Catalog/appsettings.json" Line="9" Column="30" />
+      <File FileName="Services/Shoption.Catalog/Services/CategoryService.cs" Line="1" Column="1" />
+      <File FileName="Services/Shoption.Catalog/Services/ProductService.cs" Line="85" Column="52" />
+      <File FileName="Services/Shoption.Order/Shoption.Order.Application/Consumer/ProductNameChangedEventConsumer.cs" Line="29" Column="54" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Services/IdentityResourceOwnerPasswordValidator.cs" Line="1" Column="1" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Services/TokenExchangeExtentionGrantValidator.cs" Line="17" Column="85" />
+      <File FileName="IdentityServer/Shoption.IdentityServer/Startup.cs" Line="60" Column="1" />
+      <File FileName="Shoption.Gateway/DelegateHandlers/TokenExchangeDelegateHandler.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShoptionMicroservices" expanded="True">
-            <Node name="Services" expanded="True">
-              <Node name="Order" expanded="True">
-                <Node name="Shoption.Services.Order.API" expanded="True">
-                  <Node name="Startup.cs" selected="True" />
+            <Node name="Gateways" expanded="True">
+              <Node name="Shoption.Gateway" expanded="True">
+                <Node name="DelegateHandlers" expanded="True">
+                  <Node name="TokenExchangeDelegateHandler.cs" selected="True" />
                 </Node>
-                <Node name="Shoption.Services.Order.Application" expanded="True">
-                  <Node name="Consumer" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Shared" expanded="True">
-              <Node name="Shoption.Shared" expanded="True">
-                <Node name="Messages" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -7,9 +7,15 @@
   <ItemGroup>
     <None Remove="Ocelot" />
     <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="DelegateHandlers\" />
+    <None Remove="IdentityModel" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Ocelot" Version="17.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+    <PackageReference Include="IdentityModel" Version="5.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DelegateHandlers\" />
   </ItemGroup>
 </Project>

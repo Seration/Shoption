@@ -38,7 +38,7 @@ namespace Shoption.Order.API
             services.AddMassTransit(x =>
             {
                 x.AddConsumer<CreateOrderMessageCommandConsumer>();
-
+                x.AddConsumer<ProductNameChangedEventConsumer>();
                 x.UsingRabbitMq((context, cfg) =>
                 {
                     cfg.Host(Configuration["RabbitMQUrl"], "/", host =>
@@ -50,6 +50,11 @@ namespace Shoption.Order.API
                     cfg.ReceiveEndpoint("create-order-service", e =>
                     {
                         e.ConfigureConsumer<CreateOrderMessageCommandConsumer>(context);
+                    });
+
+                    cfg.ReceiveEndpoint("product-name-changed-event-order-service", e =>
+                    {
+                        e.ConfigureConsumer<ProductNameChangedEventConsumer>(context);
                     });
                 });
             });

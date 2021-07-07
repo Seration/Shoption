@@ -73,13 +73,12 @@ namespace Shoption.IdentityServer
                     AllowOfflineAccess = true,
                     AllowedScopes={
                         IdentityServerConstants.StandardScopes.Email,
-                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.OpenId, // userId
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess, // even user is offline we can get refresh token
                         "basket_fullpermission",
                         "discount_fullpermission",
                         "order_fullpermission",
-                        "payment_fullpermission",
                         "gateway_fullpermission",
                         IdentityServerConstants.LocalApi.ScopeName,
                         "roles"
@@ -88,8 +87,18 @@ namespace Shoption.IdentityServer
                     RefreshTokenExpiration = TokenExpiration.Absolute, // refresh token gonna have a specific lifetime,
                     AbsoluteRefreshTokenLifetime= (int)(DateTime.Now.AddDays(60) - DateTime.Now).TotalSeconds,
                     RefreshTokenUsage = TokenUsage.ReUse,
-
-                }
+                },
+                new Client
+                {
+                    ClientName="Token Exchange Client",
+                    ClientId="TokenExchangeClient",
+                    ClientSecrets={new Secret("secret".Sha256())},
+                    AllowedGrantTypes = new [] {"urn:ieft:params:oauth:grant-type:token-exchange"},
+                    AllowedScopes={
+                        "payment_fullpermission",
+                        IdentityServerConstants.StandardScopes.OpenId,
+                    }
+                },
             };
     }
 }
